@@ -46,19 +46,24 @@ Clone the repository into your system and open the directory and run this comman
 ```
 npm install
 ```
-### PORT Config
-To customise port of webapp, open <i>package.json</i> 
-1. Find Start  under Scripts object
-2. Assign the port value of your choice in set PORT
-3. If you want default port(3000) then => "start" : "react-scripts start"
-```
-"scripts": {
-    "start": "set PORT=8000 && react-scripts start"
-  }
- ```
  
 ### Start
+Initialise your DB server => <i>Go to powershell and type</i>
 
 ```
+mongod
+```
+<br/>
+
+Open Project folder and initialise 2 terminal in the directory
+1. To initialise Backend 
+```
+cd ./backend
+npm start
+```
+
+2. To initialise frontend
+```
+cd ./frontend
 npm start
 ```
