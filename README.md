@@ -42,7 +42,7 @@
 1. Make sure you have Node.js version >= 13.
 
 ### Install
-Clone the repository into your system and open the directory and run this command to install all dependencies
+Clone the repository into your system and open backend and frontend directories and run this command to install all dependencies
 ```
 npm install
 ```
